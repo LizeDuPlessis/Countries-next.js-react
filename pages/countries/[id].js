@@ -29,8 +29,6 @@ https://restcountries.com/v3.1/name/${id}`);
 
 const Details = ({ country }) => {
   const [showMoreBtn, setShowMoreBtn] = useState(false);
-  const [inputText, setInputText] = useState("");
-  const [submitText, setSubmitText] = useState("");
 
   const handleShowMore = (e) => {
     setShowMoreBtn(!showMoreBtn);
